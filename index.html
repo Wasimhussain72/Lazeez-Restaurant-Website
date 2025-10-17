@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome To Lazeez Chinese & Fast Food</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #000;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #b30000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .hero {
+      background: url('images/bg_1.jpg') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    .section {
+      padding: 60px 50px;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .dish {
+      background-color: #111;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .dish:hover {
+      transform: scale(1.05);
+    }
+
+    .dish img {
+      width: 100%;
+      border-radius: 10px;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .dish h3 {
+      margin-top: 10px;
+      color: #ffcc00;
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+    }
+
+    footer a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+      }
+      nav {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Lazeez Chinese & Fast Food</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section id="home" class="hero">
+		<h2 style="text-align:center; margin-top:-40px;">FREE DELIVERY (Contact Details: 84338 05505)</h2>
+			<br>
+
+  </section>
+  <section id="menu" class="section">
+    <h2 style="color:#ffcc00; text-align:center; margin-bottom:30px;">Our Menu</h2>
+    <div class="menu">
+      <div class="dish">
+        <img src="images/proj_1.jpg" alt="Fried Rice">
+        <h3>Special Fried Rice</h3>
+        <p>Perfect blend of spices, veggies, and rice cooked to perfection.</p>
+      </div>
+      <div class="dish">
+        <img src="images/proj_2.jpg" alt="Noodles">
+        <h3>Hakka Noodles</h3>
+        <p>Authentic Chinese-style noodles tossed with fresh vegetables.</p>
+      </div>
+      <div class="dish">
+        <img src="images/proj_4.jpg" alt="Manchurian">
+        <h3>Chicken Manchow Soup</h3>
+        <p>Crispy fried balls in tangy, spicy Chinese sauce.</p>
+      </div>
+      <div class="dish">
+        <img src="images/proj_3.jpg" alt="Chilli Chicken">
+        <h3>Chilli Chicken</h3>
+        <p>Juicy chicken pieces cooked with Chinese herbs and sauces.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section" style="background:#111;">
+    <h2 style="color:#ffcc00; text-align:center; margin-bottom:30px;">About Us</h2>
+    <p style="max-width:800px; margin:auto; text-align:center; line-height:1.8;">
+      Lazeez Chinese & Fast Food brings you authentic Chinese taste blended with Indian spices. Our chefs use the freshest ingredients and traditional recipes to create unforgettable flavors.
+      Visit us for a quick bite or a full family meal — satisfaction guaranteed!
+    </p>
+	<br>
+	<br>
+	<h2 style="color:#ffcc00; text-align:center; margin-bottom:30px;">Lazeez Chinese & Fast Food Menu</h2>
+	<p style="max-width:800px; margin:auto; text-align:center; line-height:1.8;">
+    </p>
+	<p>
+<div style="text-align:center;">
+  <img src="images/proj_5.jpg" 
+       alt="Menu" 
+       style="width:550px; height:700px; vertical-align:middle; border-radius:5px;">
+</div>
+</p>
+
+  </section>
+
+  <section id="contact" class="section">
+    <h2 style="color:#ffcc00; text-align:center; margin-bottom:30px;">Contact Us</h2>
+    <p style="text-align:center;">
+      📍 Location: Cluster_mumbai Suburban_88 Reshma Chs-B, Shop No 386 Chawl, 49 Gate, Malwani, Malad West, Mumbai, Maharashtra 400095<br>
+      📞 Phone: +91 84338 05505<br>
+      📧 Email: asifzaidi626@gmail.com
